@@ -9,3 +9,6 @@ His AI is developed enough that he questions his purpose, as many intelligent cr
 However, he is built for one thing and one thing only: to pass butter... albeit reluctantly.
 
 Let's create this adorable sentient creature and see him yearn for something more than to pass butter.
+
+###### Developer:
+Eleni Arvanitis
