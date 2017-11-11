@@ -10,5 +10,4 @@ However, he is built for one thing and one thing only: to pass butter... albeit 
 
 Let's create this adorable sentient creature and see him yearn for something more than to pass butter.
 
-###### Developer:
-Eleni Arvanitis
+###### Engineer: Eleni Arvanitis
