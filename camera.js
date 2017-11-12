@@ -1,22 +1,4 @@
-// // Any copyright is dedicated to the Public Domain.
-// // http://creativecommons.org/publicdomain/zero/1.0/
-//
-// /*********************************************
-//  Create a server that responds to every request by taking a picture and piping it directly to the browser.
-//  *********************************************/
-//
-// const av = require('tessel-av'),
-//       os = require('os'),
-//       http = require('http'),
-//       port = 8000,
-//       camera = new av.Camera();
-//
-// http.createServer((req, res) => {
-//   res.writeHead(200, { 'Content-Type': 'video/mp4' });
-//
-//   camera.stream().pipe(res);
-//
-// }).listen(port, () => console.log(`http://${os.hostname()}.local:${port}`));
+'use strict';
 
 const express = require('express'),
       app = express(),
@@ -44,7 +26,7 @@ vstream.on('connection', conn => {
   conn.on('close', () => {});
 });
 
-vstream.installHandlers(server, { prefix:'/vstream' });
+vstream.installHandlers(server, { prefix: '/vstream' });
 
 server.listen(port, () => {
   console.log(`http://${os.hostname()}.local:${port}`);
