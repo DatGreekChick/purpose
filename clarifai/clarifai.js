@@ -1,6 +1,6 @@
 'use strict';
 
-import Clarifai from 'clarifai';
+import Clarifai from 'clarifai/clarifai';
 import API_KEY from 'secrets';
 
 export const app = new Clarifai.App({
