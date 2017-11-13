@@ -1,6 +1,5 @@
 import { app, errorHandler } from "./clarifai";
 
-// TRAIN
 // once inputs are created, create model by giving name and list of concepts
 const createModel = (type, inputsArr) => {
   app.models.create(type, inputsArr)
