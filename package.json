@@ -1,6 +1,6 @@
 {
   "name": "purpose",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A sentient being's desire to learn his true purpose",
   "main": "camera/camera.js",
   "scripts": {
@@ -18,16 +18,17 @@
     "tessel-av": "^0.19.0"
   },
   "devDependencies": {},
-  "repository": "www.github.com/tessel/t2-cli",
+  "repository": "www.github.com/DatGreekChick/purpose",
   "keywords": [
-    "tessel",
+    "arduino",
     "Rick and Morty",
     "robot",
     "butter",
     "purpose",
     "sentient being",
-    "AI"
+    "AI",
+    "Machine Learning"
   ],
-  "license": "MIT",
+  "license": "",
   "readme": "A 'Rick and Morty' live implementation of the butter robot."
 }
