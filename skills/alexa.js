@@ -13,7 +13,7 @@ const handlers = {
     this.emit(':responseReady');
   },
   "PurposeIntent": function () {
-    this.response.speak("I am not programmed for that.");
+    this.response.speak("I am not programmed for friendship.");
     this.emit(':responseReady');
   }
 };
