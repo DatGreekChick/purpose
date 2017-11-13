@@ -14,8 +14,7 @@
     "express": "^4.16.2",
     "http": "0.0.0",
     "os": "^0.1.1",
-    "path": "^0.12.7",
-    "tessel-av": "^0.19.0"
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "repository": "www.github.com/DatGreekChick/purpose",
@@ -27,7 +26,9 @@
     "purpose",
     "sentient being",
     "AI",
-    "Machine Learning"
+    "Machine Learning",
+    "alexa",
+    "skill"
   ],
   "license": "",
   "readme": "A 'Rick and Morty' live implementation of the butter robot."
