@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "alexa-sdk": "^1.0.19",
-    "clarifai": "^2.4.0"
+    "clarifai": "^2.9.1"
   },
   "devDependencies": {},
   "repository": "www.github.com/DatGreekChick/purpose",
